@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度一下 你就知道</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html{
+			height: 100%;
+			overflow-y: scroll;
+		}
+		body{
+			min-height: 100%;
+			position: relative;
+			font-family: arial, '宋体', 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;
+		}
+		.header{
+			height: 34px;
+			border-bottom: 1px solid #EEE;
+			font-size: 13px;
+			line-height: 34px;
+		}
+		.division,.treasure,.skin,.message,.card{
+			float: left;
+			margin-right: 13px;
+		}
+		.news,.hao123,.map,.video,.tieba,.user,.set,.more{
+			float: right;
+			margin-left: 20px;
+		}
+		.news,.hao123,.map,.video,.tieba{
+			font-weight: bold;
+		}
+		.header a{
+			color: #000;
+		}
+		.weather{
+			float: left;
+			height: 20px;
+			margin-top: 8px;
+			margin-left: 15px;
+			line-height: 20px;
+			color: #555;
+			font-size: 12px;
+		}
+		.weather img{
+			width: 18px;
+			height: 18px;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.weather .tem{
+			margin-right: 9px;
+		}
+		.weather .air .name, .weather .air .num{
+			margin-right: 7px;
+			color: #badc00;
+			font-weight: bold;
+		}
+		.division {
+			margin-left: 7px;
+			margin-right: 14px;
+			font-size: 15px;
+		}
+		.more{
+			height: 20px;
+			margin-top: 5px;
+			margin-right: 12px;
+			margin-left: 24px;
+			padding: 1px 4px 2px 4px;
+			line-height: 20px;
+			color: #fff;
+			background-color: #38f;
+		}
+		.set{
+			margin-left: 22px;
+		}
+		.main{
+			height:270px;
+		}
+		.bdlogo{
+			display: block;
+			width: 270px;
+			height: 129px;
+			margin: 0 auto;
+			margin-top: 121px;
+			margin-bottom: 38px;
+		}
+		.main form{
+			width: 740px;
+			height: 40px;
+			margin: 0 auto;
+		}
+		.input{
+			width: 521px;
+			height: 20px;
+			margin-left: 50px;
+			padding: 9px 7px;
+			font: 16px arial;
+			border: 1px solid #d8d8d8;
+		}
+		.submit{
+			width: 104px;
+			height: 40px;
+			margin-left: -1px;
+			font-size: 16px;
+			color: white;
+			background-color: #38f;
+			border: 1px solid #38f;
+		}
+		.footerwrap{
+			min-height: 100%;
+			padding-bottom: 36px;
+		}
+		.footer{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			overflow: hidden;
+			font-size: 12px;
+			color: #CCC;
+			text-align: center;
+		}
+		.footer{
+			word-spacing: 3px;
+		}
+		.footer a{
+			color: #CCC;
+			text-decoration: none;
+		}
+		.footer a:hover{
+			text-decoration: underline;
+		}
+		.footer .sethome{
+			margin-right: 12px;
+		}
+		.footer img{
+			width: 13px;
+			height: 16px;
+			margin-bottom: -2px;
+			margin-left: 4px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="weather">
+			<span class="city">济南：</span><img src="image/a1.png" alt="多云"><span class="tem">29℃</span><span class="air"><span class="name">中度</span><span class="num">152</span></span></div>
+		<div class="division">|</div>
+		<a href="#" class="treasure">宝箱</a>
+		<a href="#" class="skin">换肤</a>
+		<a href="#" class="message">消息</a>
+		<a href="#" class="card">显示卡片</a>
+		<div class="more">更多产品</div>
+		<a href="#" class="set">设置</a>
+		<a href="#" class="user">剑心扬</a>
+		<a href="#" class="tieba">贴吧</a>
+		<a href="#" class="video">视频</a>
+		<a href="#" class="map">地图</a>
+		<a href="#" class="hao123">hao123</a>
+		<a href="#" class="news">新闻</a>
+	</div>
+	<div class="main">
+		<img class="bdlogo" src="image/bdlogo.png" alt="">
+		<form action="">
+			<input class="input" type="text"><input class="submit" type="submit" value="百度一下">
+		</form>
+	</div>
+	<div class="footerwrap">
+		<div class="footer">
+			<a href="#" class="sethome">设为首页</a><span class="copyright">&copy;2015 Baidu</span>
+			<a href="#" class="readme">使用百度前必读</a>
+			<a href="" class="feedback">意见反馈</a>
+			<span class="record">京ICP证030173号</span><img src="image/copy_rignt_24.png" alt="">
+		</div>
+	</div>
+</body>
+</html>
