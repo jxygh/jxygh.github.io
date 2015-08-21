@@ -1,5 +1,4 @@
-﻿
-var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
+﻿var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
 var clientWidth = $(window).width();
 var clientHeight = $(window).height();
 
@@ -16,8 +15,8 @@ $(function () {
     gardenCtx.globalCompositeOperation = "lighter";
     garden = new Garden(gardenCtx, gardenCanvas);
 	
-	$("#content").css("width", $loveHeart.width() + $("#code").width());
-	$("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
+	$("#content").css("width", $loveHeart.width());
+	$("#content").css("height", $loveHeart.height());
 	$("#content").css("margin-top", Math.max(($window.height() - $("#content").height()) / 2, 10));
 	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));
 
@@ -44,30 +43,36 @@ function getHeartPoint(angle) {
 
 function startHeartAnimation() {
 	var interval = 50;
-	var angle = 10;
+	var angle = 0;
+	var heart = new Array();
 	var heart = new Array();
 	var animationTimer = setInterval(function () {
-		var bloom = getHeartPoint(angle);
-		var draw = true;
-		for (var i = 0; i < heart.length; i++) {
-			var p = heart[i];
-			var distance = Math.sqrt(Math.pow(p[0] - bloom[0], 2) + Math.pow(p[1] - bloom[1], 2));
-			if (distance < Garden.options.bloomRadius.max * 1.3) {
-				draw = false;
-				break;
-			}
-		}
-		if (draw) {
-			heart.push(bloom);
-			garden.createRandomBloom(bloom[0], bloom[1]);
-		}
-		if (angle >= 30) {
+		drawAngle(heart, 10+angle);
+		drawAngle(heart, 30-angle);
+		if (angle >= 20) {
 			clearInterval(animationTimer);
 			showMessages();
 		} else {
 			angle += 0.2;
 		}
 	}, interval);
+}
+
+function drawAngle(heart, angle){
+	var bloom = getHeartPoint(angle);
+	var draw = true;
+	for (var i = 0; i < heart.length; i++) {
+		var p = heart[i];
+		var distance = Math.sqrt(Math.pow(p[0] - bloom[0], 2) + Math.pow(p[1] - bloom[1], 2));
+		if (distance < Garden.options.bloomRadius.max * 1.3) {
+			draw = false;
+			break;
+		}
+	}
+	if (draw) {
+		heart.push(bloom);
+		garden.createRandomBloom(bloom[0], bloom[1]);
+	}
 }
 
 (function($) {
