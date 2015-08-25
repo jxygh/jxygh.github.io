@@ -6,6 +6,7 @@ codedemo: true
 
 #{{page.title}}
 今天在制作图片投影效果时，发现img图片的下方出现了下边距。将img设置为`margin:0; padding:0;`时，下边距仍不消失。如下方的示例所示：
+
 <pre class="brush: html;">
 &lt;!doctype html>
 &lt;html>
