@@ -1,17 +1,18 @@
 ---
-layout: default
+layout: article
 title: img图片出现下边距的解决办法
+codedemo: true
 ---
 
 #{{page.title}}
 今天在制作图片投影效果时，发现img图片的下方出现了下边距。将img设置为`margin:0; padding:0;`时，下边距仍不消失。如下方的示例所示：
-{% highlight html %}
-<!doctype html>
-<html>
- <head>
-  <meta charset="UTF-8">
-  <title>图片下边距</title>
-  <style>
+<pre class="brush: html;">
+&lt;!doctype html>
+&lt;html>
+ &lt;head>
+  &lt;meta charset="UTF-8">
+  &lt;title>图片下边距&lt;/title>
+  &lt;style>
     div,img{
       margin: 0;
       padding: 0;
@@ -19,17 +20,17 @@ title: img图片出现下边距的解决办法
     div{
       border: 1px solid black;
     }
-  </style>
- </head>
- <body>
-  <div>
-    <img src="http://placehold.it/150x150" alt="示例图片">
-  </div>
- </body>
-</html>
-{% endhighlight %}
+  &lt;/style>
+ &lt;/head>
+ &lt;body>
+  &lt;div>
+    &lt;img src="http://placehold.it/150x150" alt="示例图片">
+  &lt;/div>
+ &lt;/body>
+&lt;/html>
+</pre>
 
-效果图片：
+效果图片：<br/>
 ![出现了下边距图片](/blogres/2015-08-17-img-bottom-margin/has-margin.png)
 
 ##出现原因

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: 学习记录
 ---
 

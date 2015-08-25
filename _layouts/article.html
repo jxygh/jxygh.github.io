@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{page.title}}</title>
+  {% if page.codedemo %}
+  <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shCore.js"></script>
+  <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+  <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shBrushXml.js"></script>
+  <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shBrushCss.js"></script>
+  <link type="text/css" rel="stylesheet" href="{{site.url}}/js/syntaxhighlighter/styles/shCoreDefault.css"/>
+  <script type="text/javascript">SyntaxHighlighter.all();</script>
+  {% endif %}
+</head>
+<body>
+  {{content}}
+</body>
+</html>
