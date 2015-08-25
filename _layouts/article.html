@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>{{page.title}}</title>
+  <link type="text/css" rel="stylesheet" href="{{site.url}}/css/main.css"/>
   {% if page.codedemo %}
   <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shCore.js"></script>
   <script type="text/javascript" src="{{site.url}}/js/syntaxhighlighter/scripts/shBrushJScript.js"></script>
@@ -13,6 +14,8 @@
   {% endif %}
 </head>
 <body>
-  {{content}}
+  <article>
+   {{content}}
+  </article>
 </body>
 </html>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .img-wrapper{
+      display: inline-block;
+      background: url(shadow.gif) no-repeat bottom right;
+    }
+    .img-wrapper img{
+      position: relative;
+      top: -5px;
+      left: -5px;
+      vertical-align: top;/*避免图片下方出现间隔 http://jxygh.github.io/2015/08/17/img-bottom-margin.html */
+    }
+  </style>
+ </head>
+ <body>
+  <div class="img-wrapper">
+    <img src="/image/example/xiaoxiang-small.jpg" alt="">
+  </div>
+ </body>
+</html>

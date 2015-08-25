@@ -1,0 +1,11 @@
+article h2{
+	height: 1.4em;
+	padding-left: 1em;;
+	line-height: 1.4em;
+	background: #339933;
+	border-radius: 5px;
+}
+
+article code{
+	font-family: "Courier New";
+}
