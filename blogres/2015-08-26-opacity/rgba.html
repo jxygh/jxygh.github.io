@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>设置元素整体不透明度</title>
+  <style>
+    div{
+      float: left;
+      width: 100px;
+      height: 100px;
+    }
+    .red{
+      margin-left: 30px;/* 隔开元素 */
+      background-color: red;
+    }
+    .green80,.green30{
+      margin-left: -75px;
+      margin-top: 50px;
+    }
+    .green80{
+      background-color: rgba(0,255,0,0.8);
+    }
+    .green30{
+      background-color: rgba(0,255,0,0.3);
+    }
+  </style>
+ </head>
+ <body>
+  <div class="red">红色</div>
+  <div class="green80">绿色,80%不透明度</div>
+  <div class="red">红色</div>
+  <div class="green30">绿色,30%不透明度</div>
+ </body>
+</html>
