@@ -15,10 +15,26 @@ title: 学习记录
 
 2015-08-26 css [实现元素透明的三种方法]({{site.url}}/2015/08/26/opacity.html)
 
-2015-08-26 css 利用a元素创建按钮
+2015-08-26 css 利用a元素创建按钮 精通css p91
 
-2015-08-27 css 两种定制列表元素li项目符号的方法
+2015-08-27 css 定制列表元素li项目符号的两种方法 精通css p102
 
+2015-08-27 css 利用列表创建垂直导航条（一级） 精通css p102
 
+2015-08-27 css 利用列表创建水平分页栏 精通css p106
+
+2015-08-27 css 利用列表创建水平导航条（一级） 精通css p108
+
+2015-08-27 css 利用overflow:hidden清除浮动 精通css p109
+
+2015-08-27 css 滑动门标签式导航 精通css p110
+
+2015-08-27 css 利用列表创建水平导航条（两级） 精通css p112
+
+2015-08-27 css 利用列表实现图像映射 精通css p114
+
+2015-08-27 css IE中a标签绝对定位、设置宽高后无法点击 精通css p118，[参考](http://blog.sina.com.cn/s/blog_67a4066a0101bh5o.html)
+
+2015-08-28 js [变量提升]({{site.url}}/2015/08/28/variable-hoisting.html)
 
 {{page.date|date_to_string}}

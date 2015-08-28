@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>变量提升</title>
+ </head>
+ <body>
+  <script>
+    function fn1(){
+      alert("在声明位置前调用变量:"+v1);
+      alert("调用未声明变量："+v2);
+
+      var v1 = 3;
+    }
+    fn1();
+  </script>
+ </body>
+</html>
