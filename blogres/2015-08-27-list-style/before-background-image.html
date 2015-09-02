@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>使用background-image设置列表项目图片</title>
+  <style>
+    li:before{
+      display: inline-block;
+      width: 10px;
+      height: 1em;/*高度与文本高度相同*/
+      content: "";
+      background: url(arrow.gif) no-repeat left center;
+    }
+    li{
+      list-style-type: none;
+    }
+  </style>
+ </head>
+ <body>
+  <ul>
+    <li>苹果</li>
+    <li>菠萝</li>
+    <li>香蕉</li>
+  </ul>
+ </body>
+</html>
