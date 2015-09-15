@@ -19,7 +19,7 @@ title: 学习记录
 
 2015-08-27 css [定制列表元素li项目符号的两种方法]({{site.url}}/2015/08/27/list-style.html)
 
-2015-08-27 css 利用列表创建垂直导航条（一级） 精通css p102
+2015-08-27 css [利用列表创建垂直导航条（一级）]({{site.url}}/2015/08/27/li-nav-v.html)
 
 2015-08-27 css 利用列表创建水平分页栏 精通css p106
 
@@ -36,5 +36,7 @@ title: 学习记录
 2015-08-27 css IE中a标签绝对定位、设置宽高后无法点击 精通css p118，[参考](http://blog.sina.com.cn/s/blog_67a4066a0101bh5o.html)
 
 2015-08-28 js [变量提升]({{site.url}}/2015/08/28/variable-hoisting.html)
+
+2015-09-08 css [页脚固定页面底部](http://www.zhihu.com/question/23220983/answer/25880123)
 
 {{page.date|date_to_string}}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>利用列表创建垂直导航条（一级）</title>
+  <style>
+    .nav, .nav li{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .nav li a{
+      display: inline-block;
+      height: 1.4em;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #ccf;
+    }
+
+    .nav li a:before{
+      content: "» ";
+    }
+
+    .nav li a:hover{
+      background-color: #cfc; 
+    }
+
+    .nav li a:hover:before{
+      content: " »";
+    }
+  </style>
+ </head>
+ <body>
+  <ul class="nav">
+    <li><a href="javascript:void(0)">功能一览</a></li>
+    <li><a href="javascript:void(0)">城市之家</a></li>
+    <li><a href="javascript:void(0)">边境风光</a></li>
+    <li><a href="javascript:void(0)">特色餐饮</a></li>
+    <li><a href="javascript:void(0)">自助服务</a></li>
+  </ul>
+ </body>
+</html>
