@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>利用列表创建水平分页栏</title>
+  <style>
+    .paging{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .paging li,
+    .paging a{
+      display: inline-block;
+    }
+    .paging li{
+      margin: 0 0.2em;
+    }
+    .paging a{
+      height: 1.3em;
+      padding: 0 0.4em;
+      line-height: 1.3em;
+      font-size: 20px;
+      color: #00f;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid #bbf;
+    }
+    .paging a:hover,
+    .paging .selected a{
+      color: #fff;
+      background-color: #00f;
+    }
+    .paging .prev a,
+    .paging .next a{
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <ul class="paging">
+    <li class="prev"><a href="javascript:void(0);">« Prev</a></li>
+    <li><a href="javascript:void(0);">1</a></li>
+    <li class="selected"><a href="javascript:void(0);">2</a></li>
+    <li><a href="javascript:void(0);">3</a></li>
+    <li><a href="javascript:void(0);">4</a></li>
+    <li><a href="javascript:void(0);">5</a></li>
+    <li class="next"><a href="javascript:void(0);">Next »</a></li>
+  </ul>
+</body>
+</html>
