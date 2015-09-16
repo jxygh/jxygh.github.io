@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>利用列表创建水平导航条（一级）</title>
+  <style>
+    .nav{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background: url(mainNavBg.gif);
+    }
+    .nav li{
+      display: inline-block;
+    }
+    .nav li a{
+      display: inline-block;
+      height: 25px;
+      padding: 0 20px;
+      line-height: 25px;
+      text-decoration: none;
+      color: #fff;
+      background: url(divider.gif) no-repeat;
+    }
+    .nav li a:hover{
+      color: #000;
+    }
+    .nav li.first a{
+      background: none;
+    }
+  </style>
+</head>
+<body>
+  <ul class="nav">
+    <li class="first"><a href="javascript:;">HOME</a></li>
+    <li><a href="javascript:;">ABORT</a></li>
+    <li><a href="javascript:;">NEWS</a></li>
+    <li><a href="javascript:;">PRODUCTS</a></li>
+    <li><a href="javascript:;">SERVICES</a></li>
+    <li><a href="javascript:;">CLIENTS</a></li>
+    <li><a href="javascript:;">CASE STUDIES</a></li>
+  </ul>
+</body>
+</html>

@@ -23,7 +23,7 @@ title: 学习记录
 
 2015-08-27 css [利用列表创建水平分页栏]({{site.url}}/2015/08/27/li-paging.html)
 
-2015-08-27 css 利用列表创建水平导航条（一级） 精通css p108
+2015-08-27 css [利用列表创建水平导航条（一级）]({{site.url}}/2015/08/27/li-nav-h.html)
 
 2015-08-27 css 利用overflow:hidden清除浮动 精通css p109
 
@@ -38,5 +38,7 @@ title: 学习记录
 2015-08-28 js [变量提升]({{site.url}}/2015/08/28/variable-hoisting.html)
 
 2015-09-08 css [页脚固定页面底部](http://www.zhihu.com/question/23220983/answer/25880123)
+
+2015-09-16 css 利用margin实现block元素居右显示
 
 {{page.date|date_to_string}}
