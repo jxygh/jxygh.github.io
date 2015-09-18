@@ -9,6 +9,11 @@ html,body,h1{
 	padding: 0;
 }
 
+body{
+	max-width: 1070px;
+	margin: 0 auto;
+}
+
 .header{
 	height: 100px;
 	background-color: #99cc99;
@@ -23,7 +28,7 @@ article h2{
 	height: 1.4em;
 	padding-left: 1em;;
 	line-height: 1.4em;
-	background: #339933;
+	background-color: #339933;
 	border-radius: 5px;
 }
 
