@@ -1,3 +1,24 @@
+/*
+基础配色：
+#99cc99 banner
+#339933 节标题
+*/
+
+html,body,h1{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 100px;
+	background-color: #99cc99;
+}
+
+.main li{
+	margin-top: 5px;
+	list-style-type: none;
+}
+
 article h2{
 	height: 1.4em;
 	padding-left: 1em;;
