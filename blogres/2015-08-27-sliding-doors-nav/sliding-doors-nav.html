@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>滑动门标签式导航</title>
+  <style>
+    .nav{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      word-spacing: -6px;/*移除li元素inline-block时的间距*/
+    }
+    .nav li{
+      display: inline-block;
+      word-spacing: 0;/*恢复间距*/
+      background: url(tab-right.gif) no-repeat top right;
+    }
+    .nav a{
+      display: inline-block;
+      padding: 8px 20px;
+      font-size: 14px;
+      color: #fff;
+      text-decoration: none;
+      white-space: nowrap;/* 防止页面过小（如50像素）时，最后一个Tab折行 */
+      background: url(tab-left.gif) no-repeat;
+    }
+    .nav a:hover{
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+    <ul class="nav">
+      <li><a href="javascript:;">HOME</a></li>
+      <li><a href="javascript:;">ABORT</a></li>
+      <li><a href="javascript:;">NEWS</a></li>
+      <li><a href="javascript:;">PRODUCTS</a></li>
+      <li><a href="javascript:;">SERVICES</a></li>
+      <li><a href="javascript:;">CLIENTS</a></li>
+      <li><a href="javascript:;">CASE STUDIES</a></li>
+  </ul>
+</body>
+</html>

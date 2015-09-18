@@ -27,7 +27,7 @@ title: 学习记录
 
 2015-08-27 css 利用overflow:hidden清除浮动 精通css p109
 
-2015-08-27 css 滑动门标签式导航 精通css p110
+2015-08-27 css [滑动门标签式导航]({{site.url}}/2015/08/27/sliding-doors-nav.html)
 
 2015-08-27 css 利用列表创建水平导航条（两级） 精通css p112
 
