@@ -29,9 +29,9 @@ title: 学习记录
 
 2015-08-27 css [滑动门标签式导航]({{site.url}}/2015/08/27/sliding-doors-nav.html)
 
-2015-08-27 css [利用列表创建水平导航条（两级）]({{site.url}}/2015/08/27/li-nav-h-2.html) 精通css p112
+2015-08-27 css [利用列表创建水平导航条（两级）]({{site.url}}/2015/08/27/li-nav-h-2.html)
 
-2015-08-27 css 利用列表实现图像映射 精通css p114
+2015-08-27 css [利用列表实现图像映射]({{site.url}}/2015/08/27/list-mapping.html)
 
 2015-08-27 css IE中a标签绝对定位、设置宽高后无法点击 精通css p118，[参考](http://blog.sina.com.cn/s/blog_67a4066a0101bh5o.html)
 
@@ -40,5 +40,7 @@ title: 学习记录
 2015-09-08 css [页脚固定页面底部](http://www.zhihu.com/question/23220983/answer/25880123)
 
 2015-09-16 css 利用margin实现block元素居右显示
+
+2015-09-19 css IE8中元素重叠时，如果上层为空白，则上层捕获不到的hover元素，解决方法是为上层元素添加一个不存在的背景图片
 
 {{page.date|date_to_string}}

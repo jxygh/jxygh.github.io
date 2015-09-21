@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>利用列表实现图像映射</title>
+  <style>
+    .mapping{
+      position: relative;
+    }
+    .mapping ul{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+    .mapping ul li{
+      display: none;
+      position: absolute;
+      width: 50px;
+      height: 60px;
+      border: 1px solid #fff;
+      background-image: url(noimage.png);/*防止li鼠标穿透*/
+    }
+    .mapping:hover li{
+      display: block;
+    }
+    .mapping a{
+      position: absolute;
+      bottom: -25px;
+      left: -20px;
+      display: none;
+      width: 90px;
+      padding: 2px 0;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: #fff;
+    }
+    .mapping li:hover a{
+      display: block;
+      z-index: 2;/*防止li遮盖*/
+    }
+    .mapping .cathy{
+      top: 155px;
+      left: 65px;
+    }
+    .mapping .richard{
+      top: 50px;
+      left: 80px;
+    }
+    .mapping .james{
+      top: 140px;
+      left: 145px;
+    }
+    .mapping .sophie{
+      top: 90px;
+      left: 200px;
+    }
+    .mapping .pual{
+      top: 165px;
+      left: 245px;
+    }
+  </style>
+</head>
+<body>
+  <div class="mapping">
+    <img src="nerdcore.jpg" alt="">
+    <ul>
+      <li class="cathy"><a href="javascript:;">Cathy Jones</a></li>
+      <li class="richard"><a href="javascript:;">Richard Rutter</a></li>
+      <li class="james"><a href="javascript:;">James Box</a></li>
+      <li class="sophie"><a href="javascript:;">Sophie Barrett</a></li>
+      <li class="pual"><a href="javascript:;">Pual Annett</a></li>
+    </ul>
+  </div>
+</body>
+</html>
