@@ -43,4 +43,6 @@ title: 学习记录
 
 2015-09-19 css IE8中元素重叠时，如果上层为空白，则上层捕获不到的hover元素，解决方法是为上层元素添加一个不存在的背景图片
 
+2015-09-21 css [日历组件]({{site.url}}/2015/09/21/calendar.html)
+
 {{page.date|date_to_string}}
