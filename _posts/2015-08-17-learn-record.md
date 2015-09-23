@@ -45,4 +45,6 @@ title: 学习记录
 
 2015-09-21 css [日历组件]({{site.url}}/2015/09/21/calendar.html)
 
+2015-09-22 css [简单表单样式]({{site.url}}/2015/09/22/simple-form.html)
+
 {{page.date|date_to_string}}
