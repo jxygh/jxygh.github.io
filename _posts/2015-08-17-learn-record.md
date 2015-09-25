@@ -47,4 +47,6 @@ title: 学习记录
 
 2015-09-22 css [简单表单样式]({{site.url}}/2015/09/22/simple-form.html)
 
+2015-09-25 css [input元素与a元素在同一行内水平对齐]({{site.url}}/2015/09/25/input-a-line.html)
+
 {{page.date|date_to_string}}
